@@ -13,3 +13,21 @@ function beep(numberInput) {
   } 
   return numberArray;
 };
+
+$(document).ready(function() {
+  $("form#formOne").submit(function(event) {
+    event.preventDefault();
+    var numberInput = parseInt($("input#number").val());
+    let results = beep(numberInput);
+    $(".unstyled").text("");
+    
+    results.forEach(outputList);
+
+    function outputList(result) {
+      $(".unstyled").append(result);
+    };
+    
+    $("#output").show(); 
+
+  });
+});  

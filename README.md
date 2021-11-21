@@ -16,14 +16,18 @@ This application will:
 1.Input from user and parse it to an integer
 Input Example: "5"
 Output Example: 5
+
 2.Use for loop to push every number from 0 to the inputted number into an empty array
 Input Example: 5
 Output Example: [0, 1, 2, 3, 4, 5]
+
 3.Use a forEach function to change numbers that include 1, 2 or 3 to a sentence string.
 Input Example: [0, 1, 2, 3, 4, 5]
 Output Example: [0, "Beep!", "Boop", "Won't You Be My Neighbor, 4, 5"]
+
 4.Append each element to ul and show list to user upon submit.
-Clear list and provide new output upon every click of submit without need for page refresh.
+
+5.Clear list and provide new output upon every click of submit without need for page refresh.
 
 Setup/Installation Requirements:
 

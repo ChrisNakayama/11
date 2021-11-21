@@ -1,4 +1,4 @@
-Counter
+A Fun Counter
 
 
 By Christopher Nakayama
@@ -28,7 +28,7 @@ Clear list and provide new output upon every click of submit without need for pa
 Setup/Installation Requirements:
 
 
-
+I prefer the Chrome browser.
 Clone this github repository.
 Open files in your text editor.
 Edit script as necessary or simply drag index.html to your browser window to use the application as is.
